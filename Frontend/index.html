@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ekknaam</title>
+  <!-- adding favicon of finZrs -->
+  <link rel="icon" href="./images/tabLogo.png" type="image/x-icon" />
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font-Awesome CDN Link to add Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <nav>
+    <a href="#" class="logo">
+      <img src="./images/Logo.png" alt="ekknaam logo" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="/abouts/about.html">About</a></li>
+      <li><a href="/finances/finance.html">Finance</a></li>
+      <li><a href="/finance/core.html">Core</a></li>
+      <li><a href="/supports/support.html">Support</a></li>
+      <li><a href="/sign_up/signup.html">Signup</a></li>
+      <li><a href="/login/login.html?">Login</a></li>
+      <li><i class="fa-solid fa-bars menu-icon" id="menuIcon"></i></li>
+      <div class="dropdown" id="dropdownMenu">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <a href="/index.html#">Logout</a>
+      </div>
+    </ul>
+  </nav>
+  <div class="hero">
+    <section class="landing-page">
+      <img src="./images/landing-page.png" alt="landing page" />
+
+      <h3>Empowering Smart Finance</h3>
+      <p>
+        Online platform to Core Finance in Zero stock's like, Bank, TechCompany,
+        Accounting, and more.
+      </p>
+      <a href="/sign_up/signup.html">Sign up now</a>
+    </section>
+
+    <section class="ecosystem">
+      <div class="leftEcosystem">
+        <h2>Trust with confidence</h2>
+        <div>
+          <h4>Customer-first always</h4>
+          <p>
+            “That’s why over 1.5 crore users trust platforms like ekknaam to manage ₹4.5+ lakh crores in equity
+            investments, powering over 15% of India’s daily retail exchange volume — redefining how India
+            invests, setting new standards in digital finance.”
+          </p>
+        </div>
+        <div>
+          <h4>No noise. Just numbers</h4>
+          <p>
+            At ekknaam, we don’t believe in flashy distractions, pushy notifications, or gamified traps. Just clean,
+            high-performance tools that let you manage your investments your way — at your pace.
+          </p>
+        </div>
+        <div>
+          <h4>One platform. Endless possibilities</h4>
+          <p>
+            “With ekknaam, you're backed by a curated ecosystem of 30+ fintech innovations — built around your financial
+            goals.”
+          </p>
+        </div>
+        <div>
+          <h4>Do better with your money</h4>
+          <p>
+            Through initiatives like financial education, smart portfolio insights, and access to advanced investing
+            tools — ekknaam empowers you to make informed, confident, and future-ready money decisions.”
+            <a href="https://support.ekknaam.com/category/trading-and-markets/kite-features/nudges/articles/what-is-nudge"
+              target="_blank">🔹FinNudge™</a>
+            and
+            <a href="https://support.ekknaam.com/category/console/profile/killswitch/articles/what-is-the-kill-switch"
+              target="_blank">🔒FinLock™</a>. With intelligent features like FinNudge™ and FinLock™, ekknaam doesn’t just
+            process your trades — we partner in your financial journey, helping you stay sharp, secure, and in control.
+          </p>
+        </div>
+      </div>
+      <div class="rightEcosystem">
+        <a href="#"><img src="./images/ecosystem.png" alt="ecosystem" /></a>
+
+        <div>
+          <a href="https://ekknaam.com/products">Explore our Finance <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="https://ekknaam.com/dashboard">Try Kite demo <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="press">
+      <a href="https://ekknaam.com/media">
+        <img src="./images/press-logos.png" alt="" />
+      </a>
+    </section>
+
+    <section class="pricing">
+      <div class="leftPricing">
+        <h2>Unbeatable Pricing. No Surprises</h2>
+        <p>
+          We don’t just offer low fees — we built FinZrs on the foundation of price clarity. Flat rates. No fine print.
+          100% transparent, always.
+        </p>
+        <a href="#">See Core <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="rightPricing">
+        <div class="pricing-box">
+          <img src="./images/pricing-eq.svg" alt="" />
+          <p>Free Loan ekk Baar<br />Finance</p>
+        </div>
+        <div class="pricing-box">
+          <img src="./images/pricing-eq.svg" alt="" />
+          <p>Free equity delivery<br />and direct ekk Bank supply</p>
+        </div>
+        <div class="pricing-box">
+          <img src="./images/other-trades.svg" alt="" />
+          <p>Everyday and<br />F&O</p>
+        </div>
+        <div class="pricing-box">
+          <img src="./images/other-trades.svg" alt="" />
+          <p>New exciting offer<br />on investments</p>
+        </div>
+        <div class="pricing-box">
+          <img src="./images/pricing-eq.svg" alt="" />
+          <p>Free Loan ekk Baar<br />Finance</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="varsity">
+      <div class="leftVarsity">
+        <a href="#"><img src="./images/index-education.svg" alt="" /></a>
+      </div>
+      <div class="rightVarsity">
+        <h3>Free, Open, Financially Empowering</h3>
+        <p>
+          From fundamentals to advanced trading strategies, our free learning platform helps you build confidence and
+          skill in every step of your investment journey.
+        </p>
+        <a href="/">Fin Varsity <i class="fa-solid fa-arrow-right"></i></a>
+        <p>
+          Connect with India’s largest, most active trading community. Get real-time answers to your market queries,
+          exchange strategies, and stay updated with the latest insights — all in one place.
+        </p>
+        <a href="/">TradingQ&A <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+    <section class="account">
+      <h3>Open <span style="color:green;">ekknaam</span> account</h3>
+      <p>
+        Modern platform. Transparent pricing. Trade intraday and F&O with flat, affordable fees on every transaction.
+      </p>
+      <a href="/sign_up/signup.html">Sign up now</a>
+    </section>
+  </div>
+
+  <footer>
+    <div class="upperPartFooter">
+      <div class="social-profile">
+        <img src="./images/Logo.png" alt="" />
+        <p>© 2024 - 2040, <span style="color:green;">ekknaam</span> Finance Ltd.<br />All rights reserved.</p>
+        <div class="social-icon icon1">
+          <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="social-icon">
+          <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </div>
+      <div class="footer-link">
+        <h3>Small Company</h3>
+        <div>
+          <a href="">About</a>
+          <a href="">Finance</a>
+          <a href="">Core</a>
+          <a href="">Referral Value</a>
+          <a href="">Careers</a>
+          <a href="">ekknaam Follow</a>
+          <a href="">Press & media</a>
+          <a href="">ekknaam (FRS)</a>
+        </div>
+      </div>
+      <div class="footer-link">
+        <h3>Support</h3>
+        <div>
+          <a href="">Contact us </a>
+          <a href="">Support portal</a>
+          <a href="">F-Connect blog</a>
+          <a href="">List of Money</a>
+          <a href="">Downloads & resources</a>
+          <a href="">Videos</a>
+        </div>
+      </div>
+      <div class="footer-link">
+        <h3>Account</h3>
+        <div>
+          <a href="">Open an account</a>
+          <a href="">Loan transfer</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="lowerPartFooter">
+      <p>
+        <span style="color:green;">ekknaam</span> Finance Ltd: Member of NSE, BSE, & MCX | SEBI Registration No.: INZ000031633
+        Depository Services through Zerodha Broking Ltd. – SEBI Registration No.: IN-DP-431-2019
+        Commodity Trading via Zerodha Commodities Pvt. Ltd. | MCX: 46025; NSE: 50001 | SEBI Registration No.:
+        INZ000038238 India. For any complaints related to securities broking, please email:
+        complaints@ekknaam.com
+        For DP-related issues, contact:
+        dp@ekknaam.com
+      </p>
+      <p>
+        How to File a Complaint on SEBI SCORES
+        Step 1: Register on the SEBI SCORES Portal.
+        Step 2: Provide the following mandatory details to file your complaint:
+
+        Name
+
+        PAN
+
+        Address
+
+        Mobile Number
+
+        E-mail ID
+      </p>
+      <p>
+        <a href="https://ekknaam.com/login" target="_blank">Smart Online Dispute Resolution</a>
+        <span>|</span><a href="https://ekknaam.com/login" target="_blank">Smart Online Dispute Resolution</a>
+      </p>
+      <p>
+        Investments in securities market are subject to market risks; read all
+        the related documents carefully before investing.
+      </p>
+      <p>
+        Attention investors: 1) Stock brokers can accept securities as margins
+        from clients only by way of pledge in the depository system w.e.f
+        September 01, 2020. 2) Update your e-mail and phone number with your
+        stock broker / depository participant and receive OTP directly from
+        depository on your e-mail and/or mobile number to create pledge. 3)
+        Check your securities / MF / bonds in the consolidated account
+        statement issued by NSDL/CDSL every month.
+      </p>
+      <p>
+        "Prevent unauthorised transactions in your account. Update your mobile
+        numbers/email IDs with your stock brokers. Receive information of your
+        transactions directly from Exchange on your mobile/email at the end of
+        the day. Issued in the interest of investors. KYC is one time exercise
+        while dealing in securities markets - once KYC is done through a SEBI
+        registered intermediary (broker, DP, Mutual Fund etc.), you need not
+        undergo the same process again when you approach another
+        intermediary." Dear Investor, if you are subscribing to an IPO, there
+        is no need to issue a cheque. Please write the Bank account number and
+        sign the IPO application form to authorize your bank to make payment
+        in case of allotment. In case of non allotment the funds will remain
+        in your bank account. As a business we don't give stock tips, and have
+        not authorized anyone to trade on behalf of others. If you find anyone
+        claiming to be part of ekknaam and offering such services...
+      </p>
+      <div class="footer-link">
+        <a href="https://www.nseindia.com/">NSE</a>
+        <a href="https://www.bseindia.com/">BSE</a>
+        <a href="https://www.mcxindia.com/">MCX</a>
+        <a href="https://ekknaam.com/terms-and-conditions/">Terms & conditions</a>
+        <a href="https://ekknaam.com/policies-and-procedures/">Policies & procedures</a>
+        <a href="https://ekknaam.com/privacy-policy/">Privacy policy</a>
+        <a href="https://ekknaam.com/disclosure/">Disclosure</a>
+        <a href="https://ekknaam.com/investor-attention/">For finance's attention</a>
+        <a href="https://ekknaam.com/tos/investor-charter/">follow charter</a>
+        <a href="https://ekknaam.com/tos/investor-charter/">follow charter</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
